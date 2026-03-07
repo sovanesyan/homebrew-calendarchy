@@ -7,11 +7,11 @@ class Calendarchy < Formula
   on_macos do
     on_arm do
       url "https://github.com/sovanesyan/calendarchy/releases/download/v#{version}/calendarchy-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "9c60569ceda09895071d569e734536d9c8d9bb5a67ab4c7c269021c676becb28"
     end
     on_intel do
       url "https://github.com/sovanesyan/calendarchy/releases/download/v#{version}/calendarchy-x86_64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "6ec7d524ef04937cabb3030457c3dc9f4317d5b2e2916e1b4caed34c84ad10d2"
     end
   end
 
